@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "host": "Lenovo-IdeaPad",
+  "method": "Observed Chrome UI against scripts/browser-response-fault.py on localhost:8878",
+  "planner": "fixture",
+  "payments": "fixture",
+  "external_provider_execution": false,
+  "cases": [
+    {
+      "fault": "HTTP capture response dropped after service committed COMPLETED",
+      "recovery": "Automatic GET recovered saved COMPLETED state without repeating POST",
+      "capture_posts": 1,
+      "fixture_captures": 1,
+      "recovered_message_verified": true
+    },
+    {
+      "fault": "HTTP capture response and subsequent recovery GET both dropped",
+      "recovery": "UI paused mutation controls; refresh while server stopped remained paused; same data directory restarted and GET recovered original COMPLETED receipt",
+      "capture_posts": 1,
+      "fixture_captures": 1
+    }
+  ],
+  "limitations": "Fixture HTTP fault injection, not PayPal sandbox capture evidence. Final cosmetic hiding of stale metrics was not separately re-triggered."
+}

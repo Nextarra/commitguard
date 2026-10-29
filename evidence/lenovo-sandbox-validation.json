@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "environment": "PayPal sandbox only",
+  "real_money": false,
+  "planner": "fixture",
+  "state": "COMPLETED",
+  "amount": "37.00",
+  "currency": "USD",
+  "order_id": "5HV21632D72260734",
+  "capture_id": "6VY9846007131602K",
+  "source": "PayPal capture response validated by application against immutable commitment; observed Chrome receipt",
+  "limitations": "Not combined model plus sandbox; no sandbox response-loss injection or restart replay yet.",
+  "capture_started": true,
+  "capture_observed": true,
+  "trace_events": [
+    "PLAN_PROPOSED",
+    "COMMITMENT_APPROVED",
+    "CREATE_RESERVED",
+    "ORDER_CREATED",
+    "RECONCILED",
+    "RECONCILED",
+    "CAPTURE_RESERVED",
+    "CAPTURE_RESPONSE"
+  ],
+  "capture_reservations": 1
+}

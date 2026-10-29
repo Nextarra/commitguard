@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "model": "gpt-5.6-terra",
+  "model_transport": "Existing approved model process on localhost:8781; same Responses adapter and durable allowance; key never copied out",
+  "payment_mode": "PayPal sandbox",
+  "real_money": false,
+  "fault": "Real PayPal sandbox capture response deliberately discarded by private harness, not a naturally occurring outage",
+  "state_sequence": [
+    "READY_TO_CAPTURE",
+    "CAPTURE_UNKNOWN",
+    "COMPLETED"
+  ],
+  "recovery": "Original-order GET; no capture retry",
+  "order_id": "6LC45071B4752360G",
+  "capture_id": "3BF758771V877911P",
+  "amount": "37.00",
+  "currency": "USD",
+  "capture_reservations": 1,
+  "trace_events": [
+    "PLAN_PROPOSED",
+    "COMMITMENT_APPROVED",
+    "CREATE_RESERVED",
+    "ORDER_CREATED",
+    "RECONCILED",
+    "CAPTURE_RESERVED",
+    "PROVIDER_UNREACHABLE",
+    "RECONCILED"
+  ],
+  "cumulative_model_attempts": 3,
+  "conservative_reserved_cents": 30,
+  "actual_model_billing": "Not measured",
+  "limitations": "No real money, fulfillment, webhook delivery or sandbox process restart tested. Fixture restart was separately verified."
+}

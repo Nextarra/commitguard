@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-terra",
+  "service_tier": "default",
+  "payments": "fixture",
+  "real_model_requests_completed": 2,
+  "cases": [
+    {"brief": "Patches, tyre levers and gloves for 20 bike repairs within USD 60", "result": "Three catalog items, USD 37 total, quantities explained, server policy validated"},
+    {"brief": "Help me prepare for next week at the workshop", "result": "No items proposed; three clarification questions; no payment approval control"}
+  ],
+  "approved_max_attempts": 10,
+  "reserved_cents_per_attempt": 10,
+  "actual_provider_billing": "Not measured; reservation is a conservative allowance, not a receipt",
+  "limitation": "Model plus fixture payments. Combined real model and completed PayPal sandbox capture still pending."
+}
