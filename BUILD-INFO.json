@@ -1,0 +1,7 @@
+{
+  "project": "CommitGuard",
+  "license": "MIT",
+  "runtime": "Python 3.11+; tested 3.12.14",
+  "verification": "Real model proposal and clarification; real sandbox completed capture; combined real model plus sandbox with deliberately discarded capture response recovered by original-order GET",
+  "external_real_money": false
+}

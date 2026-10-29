@@ -1,0 +1,11 @@
+.data*/
+.env*
+!.env.example
+__pycache__/
+*.pyc
+node_modules/
+qa-artifacts/
+*.sqlite3*
+*.zip
+.local-runtime/
+.local-temp/
